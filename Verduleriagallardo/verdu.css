@@ -1,0 +1,25 @@
+body {
+    background-color: #2bd350;
+}
+
+.card {
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al 105% */
+}
+
+
+.card-title {
+    font-weight: bold;
+}
+
+.precio {
+    color: #2bd350;
+    font-size: 1.25rem;
+}
+.card-img-top {
+    max-height: 150px; /* Ajusta la altura máxima según tu preferencia */
+    object-fit: cover; /* Asegura que la imagen mantenga su proporción y se recorte si es necesario */
+}
